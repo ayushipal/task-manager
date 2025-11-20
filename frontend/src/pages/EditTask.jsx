@@ -42,6 +42,23 @@ export default function EditTask() {
     <div className="container">
       <h2>Edit Task</h2>
       <TaskForm initial={task} onSubmit={handleUpdate} submitLabel="Update Task" />
+      <div style={{ display: 'flex', gap: '0rem', marginTop: '0rem'}}>
+        <button
+          type="button"
+          onClick={() => navigate('/')}
+          style={{
+            padding: '0.3rem 0.6rem',
+            fontSize: '0.9rem',
+            border: '1px solid #ccc',
+            borderRadius: '4px',
+            backgroundColor: '#2563eb',
+            cursor: 'pointer',
+            marginTop: '0'
+          }}
+        >
+          &larr; Back
+        </button>
+      </div>
     </div>
   )
 }

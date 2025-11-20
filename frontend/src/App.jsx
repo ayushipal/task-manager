@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <Link to="/" className="brand">Task Manager (MERN)</Link>
+        <Link to="/" className="brand">Task Manager</Link>
       </header>
 
       <main className="main">
